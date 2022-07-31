@@ -182,6 +182,7 @@ body {
           
     }
 .modal-btn {
+    
      margin-top: 30px;
     width: 200px;
     padding: 10px 25px;
@@ -602,6 +603,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     pointer-events: none;
 }
 .modal {
+    padding: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -627,3 +629,83 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 0;
     cursor: pointer;
 }
+.contact-form-label{
+    display: block;
+}
+
+.contact-form-input-wrapper{
+    margin-top: 10px;
+    position: relative;
+}
+.contact-form-ikon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    
+}
+.contact-form-input{
+    padding-left: 42px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.contact-form-input:focus,
+.contact-form-input:hover {
+    outline: none;
+    border-color: #2196F3;
+}
+.contact-form-input:focus .contact-form-ikon,
+ .contact-form-input:hover .contact-form-ikon {
+    fill: #2196F3;
+}
+.contact-form-text{
+    width: 100%;
+    height: 120px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+        border-radius: 4px;
+}
+.contact-form-label-text{
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: #757575;
+     display: block;
+}
+.contact-form-name-text{
+          font-weight: 700;
+        font-size: 20px;
+        line-height: 1.15;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: #212121;
+}
+.contact-form-checkbox-label{
+          font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+.contact-form-checkbox-label-color{
+    color: #2196F3;
+}
+.contact-form-submit-btn{
+  margin-top: 30px;
+  width: 200px;
+  padding: 10px 55px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: navajowhite;
+  transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: #FFFFFF;
+
+  background: #188CE8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  }
