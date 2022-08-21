@@ -482,6 +482,11 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background: #188CE8;
 }
 
+
+.mail-input {
+    margin-left: 93px;
+}
+
 /* --- End footer --- */
 /* ---- Start portfolio--- */
 .container-h {
@@ -714,6 +719,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         color: #757575;
         display: flex;
         align-items: center;
+        margin-bottom: 30px;
         
 }
 .contact-form-checkbox-label::before{
@@ -739,7 +745,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: #2196F3;
 }
 .contact-form-submit-btn{
-  margin-top: 30px;
+    display: block;
+    margin: 0 auto;
   width: 200px;
   padding: 10px 55px;
   font-weight: 700;
